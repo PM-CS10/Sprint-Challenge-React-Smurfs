@@ -7,6 +7,7 @@
 
 1.  What does HTTP stand for?
     Hyper Text Transfer Protocol
+
 1.  What does CRUD stand for?
 
     C - Create
