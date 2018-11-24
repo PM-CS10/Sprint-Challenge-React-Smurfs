@@ -18,6 +18,8 @@ class App extends Component {
     this.getTheSmurfs();
   }
 
+
+
   getTheSmurfs() {
     axios.get('http://localhost:3333/smurfs')
       .then(res => {this.setState({smurfs: res.data})})

@@ -7,7 +7,7 @@ const server = express();
 server.use(bodyParser.json());
 server.use(cors());
 
-const sendUserError = (msg, res) => {
+const sendUserError = (msg, res) => {7
   res.status(422);
   res.json({ Error: msg });
   return;
